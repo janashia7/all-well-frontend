@@ -63,7 +63,7 @@ const DashboardPage = () => {
     event.preventDefault();
     // Call function to handle login process and redirect to appropriate page
     try {
-      await axios.get('http://localhost:5000/auth/logout');
+      await axios.get('https://all-well-9mwe.onrender.com/auth/logout');
       navigate(`/log-out`);
     } catch (e) {
       alert(e.response.data.message);

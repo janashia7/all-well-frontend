@@ -85,7 +85,7 @@ const SignUpPage = () => {
     // Call function to handle login process and redirect to appropriate page
 
     try {
-      await axios.post('http://localhost:5000/auth/signup', {
+      await axios.post('https://all-well-9mwe.onrender.com/auth/signup', {
         email: email,
         password,
       });

@@ -85,7 +85,7 @@ const AccessPage = () => {
     event.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/auth/login', {
+      await axios.post('https://all-well-9mwe.onrender.com/auth/login', {
         email: email,
         password,
       });

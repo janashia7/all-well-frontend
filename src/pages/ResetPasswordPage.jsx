@@ -65,7 +65,7 @@ const ResetPasswordPage = () => {
     // Call function to handle login process and redirect to appropriate page
     try {
       const res = await axios.post(
-        'http://localhost:5000/password/reset-password-request',
+        'https://all-well-9mwe.onrender.com/password/reset-password-request',
         { email }
       );
       alert(res.data.message);

@@ -91,7 +91,7 @@ const CreateNewPasswordPage = () => {
         return;
       }
       await axios.post(
-        `http://localhost:5000/password/reset-password/${token}`,
+        `https://all-well-9mwe.onrender.com/password/reset-password/${token}`,
         { password }
       );
       navigate('/confirm-password');
