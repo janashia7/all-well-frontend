@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <CssBaseline />
-      <Router basename="http://janashia7.github.io/janashia7/all-well-frontend">
+      <Router>
         <Routes>
           <Route index element={<AccessPage />} />
           <Route path="signup" element={<SignUpPage />} />
